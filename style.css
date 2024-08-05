@@ -1,1 +1,53 @@
-
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #4D4F61;
+  }
+  header {
+    color: white;
+    padding: 10px 0px 10px 10px;
+    background-color: #363745;
+    display: flex;
+    align-items: center;
+  }
+  .media {
+    width: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: end;
+  }
+  .intro {
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+  }
+  .heading {
+    text-align: center;
+    margin: 5px;
+    color: #2C2E45;
+  }
+  .info {
+    color: #CDD1FF;
+    margin: 5px;
+    text-align: center;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .proHead {
+    color: #2C2E45;
+  }
+  .image {
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 3px 7px #35385A;
+    margin: 15px;
+  }
